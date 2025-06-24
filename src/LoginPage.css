@@ -4,6 +4,11 @@ body{
 
 }
 
+.back{
+    display: flex;
+    align-items: center;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -88,6 +93,15 @@ input[type="password"]:focus {
     -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
+}
+
+.backbtn{
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
 }
 
 
