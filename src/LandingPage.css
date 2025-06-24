@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left top, #a361ec, #9552c8, #8444a7, #723787, #5f2c6a, #52255c, #461e4f, #3a1742, #32113f, #2b0c3c, #22073a, #1a0037);
+
+}
+
+nav{
+    background-color: rgb(26, 26, 26);
+    box-shadow: 0 2px 2px -2px rgba(148, 148, 148, 0.397);
+    height: 7vh;
+}
+
+.brand-logo{
+    color: white;
+    font-weight: bold;
+    white-space:nowrap;
+    text-decoration: none;
+    padding: 20px 50px 50px 50px;
+    align-content: flex-end;
+    font-size: xx-large;
+}
+
+.loginbtn{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #d1d1d1;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+}
+
+.loginbtn:hover{
+    background-color: rgb(26, 26, 26);
+    color: #d1d1d1;
+}
